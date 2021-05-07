@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <title>chat</title>
+</head>
+<body>
+    <script src="http://localhost:5000/socket.io/socket.io.js"></script>
+
+    <form id="login">
+        <label for="name">Tài khoản của bạn:</label>
+        <br>
+        <input id = 'input-login' type="text">
+        <input type="submit" value = "Login">
+    </form>
+    <div id="name"></div>
+    <div id="online"></div>
+
+    <form id="search">
+        <label for="name">Tài khoản bạn muốn chat?:</label>
+        <br>
+        <input id = "input-search" type="text">
+        <input id = "submit-search" type="submit" value = "Search">
+    </form>
+    <div id="find" style="color: red;"></div>
+
+    <form id="chat-box">
+        <div id="header"></div>
+        <ul id="view-chat"></ul>
+        <input id = "input" type="text" placeholder="Enter your chat">
+        <input type="submit" value = "Send">
+    </form>
+
+    <script src="client.js"></script>
+
+</html>

@@ -1,0 +1,32 @@
+#login {
+    height: fit-content;
+    width: 300px;
+    padding: 10px;
+    background-color: floralwhite;
+}
+
+#search {
+    height: fit-content;
+    width: 300px;
+    padding: 10px;
+    display: none;
+}
+#chat-box {
+    height: fit-content;
+    width: 300px;
+    border: solid blueviolet 1px;
+    background-color:white;
+    display: none;
+}
+#header {
+    height: 30px;
+    background-color: rgb(152, 186, 186);
+    width: 100%;
+}
+#view-chat {
+    height: 150px ;
+    width: 100%;   
+}
+#input {
+    width: 96%;
+}
